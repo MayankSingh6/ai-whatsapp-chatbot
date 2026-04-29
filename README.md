@@ -102,13 +102,13 @@ Built using **WhatsApp Cloud API + GPT-4.0 mini + n8n**, the system mimics real-
 ## 📸 Screenshots
 
 ### 🔁 Workflow
-![Workflow](images/flow.png)
+![Workflow](flow.png)
 
 ### 💬 Chat Example
-![Chat](images/chat.png)
+![Chat](chat.png)
 
 ### 🖼️ Image Analysis
-![Image](images/image-analysis.png)
+![Image](image-analysis.png)
 
 ---
 
