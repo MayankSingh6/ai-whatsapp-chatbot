@@ -38,7 +38,7 @@ Built using **WhatsApp Cloud API + GPT-4.0 mini + n8n**, the system mimics real-
 
 ## 🔄 System Architecture
 
-![Workflow](images/flow.png)
+![Workflow](flow.png)
 
 ---
 
