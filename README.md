@@ -46,14 +46,14 @@ Built using **WhatsApp Cloud API + GPT-4.0 mini + n8n**, the system mimics real-
 
 ### 1. WhatsApp Webhook Trigger
 - Receives incoming messages (text or image)  
-- Uses Meta WhatsApp Business API :contentReference[oaicite:5]{index=5}  
+- Uses Meta WhatsApp Business API  
 
 ---
 
 ### 2. Input Routing (Switch Node)
 - Detects message type:
   - Text → GPT pipeline  
-  - Image → Image processing pipeline :contentReference[oaicite:6]{index=6}  
+  - Image → Image processing pipeline 
 
 ---
 
@@ -62,7 +62,7 @@ Built using **WhatsApp Cloud API + GPT-4.0 mini + n8n**, the system mimics real-
 - Extracts user message  
 - Sends to GPT-4.0 mini  
 - Generates contextual reply  
-- Sends response back via WhatsApp API :contentReference[oaicite:7]{index=7}  
+- Sends response back via WhatsApp API 
 
 ---
 
@@ -70,16 +70,16 @@ Built using **WhatsApp Cloud API + GPT-4.0 mini + n8n**, the system mimics real-
 
 #### Step 1 — Image Retrieval
 - Fetches media using WhatsApp API  
-- Converts media ID → downloadable image :contentReference[oaicite:8]{index=8}  
+- Converts media ID → downloadable image   
 
 #### Step 2 — Image Download
 - Uses authenticated HTTP request  
-- Prepares image for AI processing :contentReference[oaicite:9]{index=9}  
+- Prepares image for AI processing 
 
 #### Step 3 — AI Image Analysis
 - Sends image to GPT with prompt:
   > "Describe this image"  
-- Generates contextual caption or interpretation :contentReference[oaicite:10]{index=10}  
+- Generates contextual caption or interpretation 
 
 ---
 
@@ -87,7 +87,7 @@ Built using **WhatsApp Cloud API + GPT-4.0 mini + n8n**, the system mimics real-
 
 - Applies system prompt for tone and behavior  
 - Uses memory for contextual responses  
-- Controls output consistency (tokens, temperature) :contentReference[oaicite:11]{index=11}  
+- Controls output consistency (tokens, temperature)  
 
 ---
 
@@ -95,7 +95,7 @@ Built using **WhatsApp Cloud API + GPT-4.0 mini + n8n**, the system mimics real-
 
 - Formats output message  
 - Sends via WhatsApp Cloud API  
-- Supports personalized responses and formatting :contentReference[oaicite:12]{index=12}  
+- Supports personalized responses and formatting 
 
 ---
 
@@ -118,7 +118,7 @@ User:
 > "Can you tell me gas prices in Pennsylvania?"
 
 Bot:  
-> Provides real-time contextual answer with follow-up suggestion :contentReference[oaicite:13]{index=13}  
+> Provides real-time contextual answer with follow-up suggestion  
 
 ---
 
